@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SampleLibraries", "SampleLibraries", "{DA100C83-8759-47E5-8ACC-BB262EEA39D6}"
 EndProject
@@ -26,6 +26,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UA Sample Library", "..\Samples\Common\UA Sample Library.csproj", "{5A647CC0-5FD8-476B-8C14-8A9CED9CF5BE}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UA Random Library", "Random\Library\UA Random Library.vcxproj", "{2DFFAA33-69DB-4AAE-9141-012326EB9A53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Stack", "Stack", "{B0D47DC0-308A-4450-B808-0254C49CC98F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UA Core Library", "..\..\Stack\Core\UA Core Library.csproj", "{7543AFCB-F5AF-44AF-83C9-23164474C1E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SampleApplications_WCF_Common", "SampleApplications_WCF_Common", "{54D68E23-9BEC-4438-81BA-2D97E9DDCE51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "..\WCF\Common\Common.csproj", "{477857DE-DE29-4187-8AF0-9BBF1CFEAE24}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +155,30 @@ Global
 		{2DFFAA33-69DB-4AAE-9141-012326EB9A53}.Release|Mixed Platforms.Build.0 = Release|Win32
 		{2DFFAA33-69DB-4AAE-9141-012326EB9A53}.Release|Win32.ActiveCfg = Release|Win32
 		{2DFFAA33-69DB-4AAE-9141-012326EB9A53}.Release|Win32.Build.0 = Release|Win32
+		{7543AFCB-F5AF-44AF-83C9-23164474C1E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7543AFCB-F5AF-44AF-83C9-23164474C1E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7543AFCB-F5AF-44AF-83C9-23164474C1E9}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{7543AFCB-F5AF-44AF-83C9-23164474C1E9}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{7543AFCB-F5AF-44AF-83C9-23164474C1E9}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{7543AFCB-F5AF-44AF-83C9-23164474C1E9}.Debug|Win32.Build.0 = Debug|Any CPU
+		{7543AFCB-F5AF-44AF-83C9-23164474C1E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7543AFCB-F5AF-44AF-83C9-23164474C1E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7543AFCB-F5AF-44AF-83C9-23164474C1E9}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{7543AFCB-F5AF-44AF-83C9-23164474C1E9}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{7543AFCB-F5AF-44AF-83C9-23164474C1E9}.Release|Win32.ActiveCfg = Release|Any CPU
+		{7543AFCB-F5AF-44AF-83C9-23164474C1E9}.Release|Win32.Build.0 = Release|Any CPU
+		{477857DE-DE29-4187-8AF0-9BBF1CFEAE24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{477857DE-DE29-4187-8AF0-9BBF1CFEAE24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{477857DE-DE29-4187-8AF0-9BBF1CFEAE24}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{477857DE-DE29-4187-8AF0-9BBF1CFEAE24}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{477857DE-DE29-4187-8AF0-9BBF1CFEAE24}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{477857DE-DE29-4187-8AF0-9BBF1CFEAE24}.Debug|Win32.Build.0 = Debug|Any CPU
+		{477857DE-DE29-4187-8AF0-9BBF1CFEAE24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{477857DE-DE29-4187-8AF0-9BBF1CFEAE24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{477857DE-DE29-4187-8AF0-9BBF1CFEAE24}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{477857DE-DE29-4187-8AF0-9BBF1CFEAE24}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{477857DE-DE29-4187-8AF0-9BBF1CFEAE24}.Release|Win32.ActiveCfg = Release|Any CPU
+		{477857DE-DE29-4187-8AF0-9BBF1CFEAE24}.Release|Win32.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -158,5 +190,7 @@ Global
 		{E16F908B-C338-4B0C-9E72-2ADAD8FB98D5} = {DA100C83-8759-47E5-8ACC-BB262EEA39D6}
 		{8AB4CB8E-E216-425D-B600-350D0B6B59CD} = {DA100C83-8759-47E5-8ACC-BB262EEA39D6}
 		{5A647CC0-5FD8-476B-8C14-8A9CED9CF5BE} = {DA100C83-8759-47E5-8ACC-BB262EEA39D6}
+		{7543AFCB-F5AF-44AF-83C9-23164474C1E9} = {B0D47DC0-308A-4450-B808-0254C49CC98F}
+		{477857DE-DE29-4187-8AF0-9BBF1CFEAE24} = {54D68E23-9BEC-4438-81BA-2D97E9DDCE51}
 	EndGlobalSection
 EndGlobal

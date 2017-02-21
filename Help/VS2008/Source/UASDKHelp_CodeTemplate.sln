@@ -1,11 +1,13 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{42439A32-B0C9-4C71-8838-839CD06F9ADE}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UA Core Library", "Common\UA Core Library\UA Core Library.csproj", "{38686D80-E976-46F9-9156-ADA0D4631D9B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UA Client Library", "Common\UA Client Library\UA Client Library.csproj", "{F8AAB39D-30FA-4281-B7A8-2D57B337FB71}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{42439A32-B0C9-4C71-8838-839CD06F9ADE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UA Schema Library", "Common\UA Schema Library\UA Schema Library.csproj", "{40D150B6-7CDC-481C-84A7-4DC8424141B8}"
 EndProject

@@ -1,0 +1,15 @@
+﻿  stdafx.cpp
+  AssemblyInfo.cpp
+AssemblyInfo.cpp(69): warning C4947: System::Security::Permissions::SecurityAction::RequestMinimum: помечен как устаревший
+  AssemblyInfo.cpp(69): note: Сообщение: "Assembly level declarative security is obsolete and is no longer enforced by the CLR by default. See http://go.microsoft.com/fwlink/?LinkID=155570 for more information."
+  Client.cpp
+  ComDaClientUtils.cpp
+  ComDaDataCallback.cpp
+  ComDaTester.cpp
+  CreateServerDlg.cpp
+  EnterEndpointUrlDlg.cpp
+  MainForm.cpp
+  Создание кода...
+  .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+  COM Test Client.vcxproj -> C:\Проекты\UA-.NET\SampleApplications\Workshop\ComDa\ComClient\..\..\..\bin\debug\COM DataAccess Client.exe
+  COM Test Client.vcxproj -> ..\..\..\bin\debug\COM DataAccess Client.pdb (Full PDB)

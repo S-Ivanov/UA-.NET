@@ -1,0 +1,7 @@
+﻿  RandomGenerator.c
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(C:\Проекты\UA-.NET\SampleApplications\Stack Test\Random\Library\..\..\..\bin\debug\UA Random Library.dll) does not match the Linker's OutputFile property value (C:\Проекты\UA-.NET\SampleApplications\bin\debug\Opc.Ua.Random.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1191,5): warning MSB8012: TargetName(UA Random Library) does not match the Linker's OutputFile property value (Opc.Ua.Random). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+RandomGenerator.obj : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/SAFESEH"
+     Создается библиотека ..\..\..\bin\debug\UA Random Library.lib и объект ..\..\..\bin\debug\UA Random Library.exp
+  UA Random Library.vcxproj -> C:\Проекты\UA-.NET\SampleApplications\Stack Test\Random\Library\..\..\..\bin\debug\UA Random Library.dll
+  UA Random Library.vcxproj -> ..\..\..\bin\debug\UA Random Library.pdb (Full PDB)
